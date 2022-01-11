@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone 12 Pro Max – 1</title>
+<style id="applicationStylesheet" type="text/css">
+
+	body {
+		margin: 0;
+		padding-left : 35%;;
+		box-sizing: border-box;
+		border: aqua;
+	}
+	#iPhone_12_Pro_Max__1 {
+		position: relative;
+		width: 428px;
+		height: 926px;
+		background-color: rgba(182,228,239,1);
+		overflow: hidden;
+		--web-view-name: iPhone 12 Pro Max – 1;
+		--web-view-id: iPhone_12_Pro_Max__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+
+	#Ellipse_2 {
+		opacity: 0.72;
+		fill: rgba(170,213,224,1);
+		stroke: rgba(112,112,112,0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 686px;
+		height: 476px;
+		left: 42px;
+		top: 617px;
+	}
+	#Be_a_Machoman {
+		left: 22px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 385px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI Historic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 52px;
+		color: rgba(54,103,114,1);
+	}
+	#Fitness_Two_Color {
+		filter: blur(0px);
+		position: absolute;
+		width: 500px;
+		height: 500px;
+		left: -36px;
+		top: 133px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		fill: rgba(134,190,203,1);
+		stroke: rgba(112,112,112,0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		filter: drop-shadow(0px 3px 6px rgba(29, 34, 35, 0.231));
+		position: absolute;
+		overflow: visible;
+		width: 328px;
+		height: 78px;
+		left: 60px;
+		top: 747px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: iPhone_12_Pro_Max___4.html;
+		cursor: pointer;
+	}
+	#Rectangle_2 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(96,207,233,0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2 {
+		filter: drop-shadow(0px 3px 6px rgba(37, 30, 30, 0.329));
+		position: absolute;
+		overflow: visible;
+		width: 328px;
+		height: 78px;
+		left: 60px;
+		top: 669px;
+		--web-animation: fadeIn 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: iPhone_12_Pro_Max___2.html;
+		cursor: pointer;
+	}
+	#Sign_In {
+		left: 161px;
+		top: 675px;
+		position: absolute;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: iPhone_12_Pro_Max___2.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Segoe UI Historic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(182,228,239,1);
+	}
+	#Sign_Up {
+		left: 153px;
+		top: 753px;
+		position: absolute;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: iPhone_12_Pro_Max___4.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Segoe UI Historic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(244,255,253,1);
+	}
+	#Be_a_beast {
+		left: 26px;
+		top: 60px;
+		position: absolute;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI Historic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(58,117,130,1);
+	}
+</style>
+<script id="applicationScript">
+
+
+var Application = function() {
+	this.prefix = "--web-";
+
+
+	var self = this;
+
+	self.goToTargetView = function(event) {
+		var button = event.currentTarget;
+		var buttonComputedStyles = getComputedStyle(button);
+		var actionTargetValue = buttonComputedStyles.getPropertyValue(self.prefix+"action-target").trim();
+		var animation = buttonComputedStyles.getPropertyValue(self.prefix+"animation").trim();
+		var targetType = buttonComputedStyles.getPropertyValue(self.prefix+"action-type").trim();
+
+		if (self.application==false || targetType=="page") {
+			document.location.href = "./" + actionTargetValue;
+			return;
+		}
+	}
+
+	self.getElement = function(id) {
+		id = id ? id.trim() : id;
+		var element = id ? document.getElementById(id) : null;
+
+		return element;
+	}
+}
+
+window.application = new Application();
+</script>
+</head>
+<body>
+<div id="iPhone_12_Pro_Max__1">
+	<svg class="Ellipse_2">
+		<ellipse id="Ellipse_2" rx="343" ry="238" cx="343" cy="238">
+		</ellipse>
+	</svg>
+	<div id="Be_a_Machoman">
+		<span>Be a Machoman!</span>
+	</div>
+	<img id="Fitness_Two_Color" src="Fitness_Two_Color.png" srcset="Fitness_Two_Color.png 1x, Fitness_Two_Color@2x.png 2x">
+		
+	<svg class="Rectangle_1">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_1" rx="29" ry="29" x="0" y="0" width="308" height="58">
+		</rect>
+	</svg>
+	<svg class="Rectangle_2">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_2" rx="29" ry="29" x="0" y="0" width="308" height="58">
+		</rect>
+	</svg>
+	<div onclick="application.goToTargetView(event)" id="Sign_In">
+		<span>Sign In</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Sign_Up">
+		<span>Sign Up</span>
+	</div>
+	<div id="Be_a_beast">
+		<span>Be a beast!</span>
+	</div>
+</div>
+</body>
+</html>
